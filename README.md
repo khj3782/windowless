@@ -1,0 +1,2 @@
+# windowless
+window kill
