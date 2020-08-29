@@ -20,6 +20,30 @@
   </style>
 </head>
 <body>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCIGFTUTe4Khwf3IxWOjQXdaX2InYCuHKQ",
+      authDomain: "windowless-30a1f.firebaseapp.com",
+      databaseURL: "https://windowless-30a1f.firebaseio.com",
+      projectId: "windowless-30a1f",
+      storageBucket: "windowless-30a1f.appspot.com",
+      messagingSenderId: "280186532639",
+      appId: "1:280186532639:web:e04a9443fad84d916ef62a",
+      measurementId: "G-V85X2W9Z0G"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  
   <h1>Windowless Sky</h1>
   <div style="text-align:center;">
     <img src="noname.png" width="320px" max-width="device-width">
